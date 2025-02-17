@@ -35,6 +35,7 @@ Each dataset was measured with a sampling frequency of 12.8 kHz. The datasets we
 
 ## Usage
 - If you want to perform visual analysis on a specific file, you can refer to the demo files in the "visual" folder.
+- **Note: The `.m` file and the CSV file to be plotted must be placed in the same directory.**
 - The demo files use examples with varying speed conditions: `plot_torque_change_speed.m` visualizes the 'torque' channel under varying speed conditions, while `plot_speed_change_speed.m` visualizes the 'speed' channel under varying speed conditions.
 - First, you need to set the fault type, fault level, and speed/load conditions to retrieve the target CSV file:
 ```
